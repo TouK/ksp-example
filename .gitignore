@@ -1,14 +1,15 @@
-# Compiled class file
+# Build artifacts
+.gradle
 *.class
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Editors
+.idea
 
 # Log file
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
 # Package Files #
 *.jar
