@@ -1,15 +1,5 @@
 # Build artifacts
-.gradle
 *.class
-build/
-out/
-!gradle/wrapper/gradle-wrapper.jar
-
-# Editors
-.idea
-
-# Log file
-*.log
 
 # Package Files #
 *.jar
@@ -20,5 +10,21 @@ out/
 *.tar.gz
 *.rar
 
+# Gradle
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+build/
+
+# Editors
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+# Log file
+*.log
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
